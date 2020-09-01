@@ -8,7 +8,10 @@ body{
     background-color: #24292E;
 }
 .navbar-container{
-    background-color: #102040;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+    background-color:  #102040;
 }
 .about-container{
     background-color: #002B36;
@@ -28,4 +31,53 @@ body{
 }
 .project-container{
     background-color: #24292E;
+}
+.form-container{
+    background-color: #102040;
+}
+.inner-form{
+    background-color: #002B36;
+}
+.footer{
+
+    background-color: rgba(47, 124, 160, 0.322);
+}
+.circle-facebook{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: #0b7beb;
+}
+.circle-facebook:hover{
+    background-color: dimgray;
+}
+.circle-youtube{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: #eb0b16;
+}
+.circle-youtube:hover{
+    background-color: dimgray;
+}
+.circle-github{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: #0d0d0e;
+}
+.circle-github:hover{
+    background-color: dimgray;
 }
