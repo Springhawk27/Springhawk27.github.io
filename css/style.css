@@ -1,3 +1,31 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.banner-container{
+    background-color: #341461;
+}
+.banner-column{
+    background-color: #24292E;
+}
+.navbar-container{
+    background-color: #102040;
+}
+.about-container{
+    background-color: #002B36;
+}
+.education-container{
+    background-color: beige;
+}
+.circle{
+    background-color: rgb(59, 126, 228);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.card-body{
+    text-align: justify;
+    background-color: #EEEEEE;
+}
+.project-container{
+    background-color: #24292E;
+}
